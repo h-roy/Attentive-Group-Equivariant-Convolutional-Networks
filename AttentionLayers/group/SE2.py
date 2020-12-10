@@ -2,6 +2,9 @@ import torch
 import numpy as np
 
 
+
+"THis is not SE2 group. Its p4. It doesn't work for grid size =/= 4"
+
 #Translation group
 class Rn:
     name = 'R^2'
