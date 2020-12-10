@@ -1,8 +1,8 @@
 # Attentive-Group-Equivariant-Convolutional-Networks
 
 
-TODO:
-WEEKEND: Write Comments, Readme, Clean code etc.
-WEEKEND: Experiemnt files, data to rerun expts.
-i) Reimplement fChannelAttentionGG, fSpatialAttentionGG
-ii) Try to run PCAM experiemnts
+TODO: \n
+WEEKEND: Write Comments, Readme, Clean code etc. \n
+WEEKEND: Experiemnt files, data to rerun expts. \n
+i) Reimplement fChannelAttentionGG, fSpatialAttentionGG \n
+ii) Try to run PCAM experiemnts \n
