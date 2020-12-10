@@ -660,9 +660,7 @@ class fAttConvGGLayer(ConvGGLayer):
         self.weight = torch.nn.Parameter(torch.Tensor(self.N_out, self.N_in, kernel_size, kernel_size))
         self.weight.data.uniform_(-stdv, stdv)
 
-############################ Compute the output ##########################
 
-    # Method overriding:
     def forward(self, input):
 
         feature_map = self.apply_attention(input)
