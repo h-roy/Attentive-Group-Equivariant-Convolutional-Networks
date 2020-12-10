@@ -633,7 +633,7 @@ class fAttConvRnGLayer(torch.nn.Module):
 FEATURE ATTENTIVE GROUP EQUIVARIANT CONVOLUTION LAYER: STANDARD LAYER
 """
 
-class fAttConvGGLayer(ConvGGLayer):
+class fAttConvGGLayer(torch.nn.Module):
     # The initialization of both layers is equal up to the additional parameters
     def __init__(
             self,group,N_in,N_out,kernel_size,h_grid,channel_attention,
